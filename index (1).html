@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Investo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="icon">
+                <img class="icon-img" src="/images/INVESTO.png" alt="">
+            </div>
+            <div>
+                <h1 class="investo">Investopedia</h1>
+            </div>
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()"><strong>Login</strong></button>
+                    <button type="button" class="toggle-btn" onclick="register()"><strong>Register</strong></button>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="email" class="input-field" placeholder="Email address" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="chech-box"><span>Remember Password</span>
+                    <button type="reset" class="submit-btn" onclick="location.href='page.html'"><strong>Log In</strong></button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="email" class="input-field" placeholder="Email address" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="password" class="input-field" placeholder="Confirm Password" required>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

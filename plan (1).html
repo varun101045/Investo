@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investo</title>
+    <link rel="stylesheet" href="plan.css">
+</head>
+<body>
+    <div class="container">
+        <div id="title" class="title">
+            <img src="/images/INVESTO.png" alt="">
+            <hr>
+        </div>
+        <h1 class="information">Enter Details : </h1>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <label class="details" for=""><strong>Industry :</strong></label><br><br>
+                        <input type="text" placeholder="Enter your industry" id="myindustry">
+                    </div>
+                    <div class="input-box">
+                        <label class="details" for=""><strong>Income :</strong></label><br><br>
+                        <input type="number" placeholder="Income (Before Taxation)" id="myincome">
+                    </div>
+                    <div class="input-box">
+                        <label class="details" for=""><strong>Long/Short Term Planning :</strong></label><br><br>
+                        <input type="text" placeholder="L/S" id="longshort">
+                    </div>
+                    <div class="input-box">
+                        <label class="details" for=""><strong>Time period :</strong></label><br><br>
+                        <input type="number" placeholder="In Years" id="timeperiod">
+                    </div>
+                    <div class="input-box">
+                        <label class="details" for=""><strong>Want Insurance(Medical/Life) :</strong></label><br><br>
+                        <input type="text" placeholder="Y/N" id="wantinsurance">
+                    </div>
+                    <div class="input-box">
+                        <label class="details" for=""><strong>Family Members :</strong></label><br><br>
+                        <input type="number" placeholder="Numbers" id="nomembers">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+        <button class="button-23" type="button" onclick="getvalue();"><strong>SUBMIT</strong></button>
+        <p class="dot">...........</p>
+    </div>
+    <div class="planning">
+        <h1>Details : </h1>
+        <hr>
+    </div>
+    <br>
+    <div class="output-div">
+        <strong>
+            <div class="card">
+                <div class="cont">
+                    <h1 class="output-head">Tax</h1>
+                    <p class="output" id="outputvalue1"></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cont">
+                    <h1 class="output-head">Investment</h1>
+                    <p class="output" id="outputvalue2"></p>
+                    <p class="output" id="outputvalue3"></p>
+                    <p class="output" id="outputvalue4"></p>
+                    <p class="output" id="outputvalue5"></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cont">
+                    <h1 class="output-head">Insurance</h1>
+                    <p class="output" id="outputvalue6"></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cont">
+                    <h1 class="output-head">Emergency Funds</h1>
+                <p class="output" id="outputvalue7"></p>
+                </div>
+            </div>
+        </strong>
+    </div>
+    <hr>
+    <footer>
+        Made by sayan halder, varun sharma <br> Using HTML5, CSS3, Bootstrap, Javascript
+    </footer>
+    <script src="plan.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* title section */
+
+.title-section
+{
+    background: linear-gradient(to right, #8ee4af, #379683);
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+.quote{
+    display: inline;
+    font-family: 'Alkalami', serif;
+    font-size: 3rem;
+    color: rgb(5, 61, 5);
+    padding: 50px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+}
+
+.img1
+{
+    display: inline;
+    width: 400px;
+    margin: 30px;
+    position: relative;
+    top: 110px;
+}
+
+/* about-section */
+
+.about-section
+{
+    padding: 150px;
+    text-align: center;
+    background-color: #e3f3e9;
+}
+.about
+{
+    color: #075042;
+    font-size: 3.5rem;
+    font-family: 'Alkalami', serif;
+    margin-bottom: 60px;
+
+}
+.about-us
+{
+    font-family: 'Alkalami', serif;
+    color: black;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+/* information section */
+
+.info-section
+{
+    width: 100%;
+    background: linear-gradient(to right, #8ee4af, #379683);
+}
+.head-info
+{
+    text-align: center;
+}
+.info-info
+{
+    font-size: 3.5rem;
+    font-family: 'Alkalami', serif;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.info-p
+{
+    font-size: 2.7rem;
+    font-family: 'Alkalami', serif;
+    margin-bottom: 30px;
+}
+.list-info
+{
+    color: rgb(5, 61, 5);
+    font-size: 2rem;
+    font-family: 'Alkalami', serif;
+    position: relative;
+    left: 260px;
+    line-height: 2;
+    padding-bottom: 80px;
+}
+
+/* features section */
+
+.feat-section
+{
+    width: 100%;
+    background-color: #e3f3e9;
+}
+
+.head-feat
+{
+    text-align: center;
+}
+.feat-feat
+{
+    font-size: 3.5rem;
+    font-family: 'Alkalami', serif;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.feat-p
+{
+    font-size: 2.7rem;
+    font-family: 'Alkalami', serif;
+    margin-bottom: 30px;
+}
+.list-feat{
+    color: rgb(5, 61, 5);
+    font-size: 2rem;
+    font-family: 'Alkalami', serif;
+    position: relative;
+    left: 260px;
+    line-height: 2;
+    padding-bottom: 80px;
+}
+/* photo section */
+
+.img-tech
+{
+    text-align: center;
+    background-image: url("/images/invest\ \(2\).jpg");
+    height: 700px;
+    padding: 260px;
+}
+h3
+{
+    color: white;
+    font-family: 'Alkalami', serif;
+    font-size: 4rem;
+}
+.btn-lg
+{
+    font-size: 2.6rem;
+    font-family: 'Alkalami', serif;
+}
+
+/* footer section */
+
+footer{
+    text-align: center;
+    line-height: 1;
+    padding: 30px;
+    color: black;
+    background-color: #8ee4af;
+}
